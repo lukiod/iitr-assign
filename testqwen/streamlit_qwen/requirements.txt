@@ -8,3 +8,4 @@ diffusers
 Pillow
 byaldi
 qwen_vl_utils
+nltk
