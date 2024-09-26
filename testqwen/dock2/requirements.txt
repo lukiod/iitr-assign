@@ -1,0 +1,12 @@
+torch
+torchvision
+torchaudio
+torchao
+git+https://github.com/huggingface/transformers.git
+diffusers
+Pillow
+byaldi
+qwen_vl_utils
+flash-attn
+fastapi
+uvicorn[standard]
