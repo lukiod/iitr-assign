@@ -21,6 +21,7 @@ RUN pip install --no-cache-dir \
     byaldi \
     qwen_vl_utils \
     flash-attn \
+    nltk \
     fastapi \
     "uvicorn[standard]"
 
