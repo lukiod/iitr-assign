@@ -12,9 +12,8 @@ This application performs Optical Character Recognition (OCR) on images containi
   - Uses FlashAttention library
   - Ideal for complex or high-resolution images
 - **Implementation**: 
-  - Tested with Streamlit and Gradio interfaces
-  - Available on Hugging Face Space: [Your Hugging Face Space Link]
-- **Note**: This approach requires GPU access, which may limit deployment options on some platforms
+  - Tested with Streamlit interfaces
+  - Available on Hugging Face Space LInks Below
 
 ### 2. General OCR Theory (GOT) Model (CPU Compatible)
 
@@ -108,6 +107,11 @@ This application performs Optical Character Recognition (OCR) on images containi
 
 - `basic_qwen.ipynb`: For testing Qwen2 OCR (requires GPU)
 - GOT approach: couldn't test it due to midsem evaluations i have done some basic test which are under `testgotocr`
+## Screenshot
+### Web app
+![image](https://github.com/user-attachments/assets/af5645db-4e11-4775-8d9e-74de3346afe1)
+### Ocred Document
+![Reasoning-Complete-PDF_Page_002](https://github.com/user-attachments/assets/9a4d6b63-dc8b-4e2a-af0a-8b46d884cbc2)
 
 ## Previous Work
 - I have worked upon vsrious text to image and image to image model and my task was to reduce the  inference time and memmory usage used by the model 
@@ -119,4 +123,4 @@ This application performs Optical Character Recognition (OCR) on images containi
 
 [Mohak Gupta] - [mohakgupta0981@gmail.com]
 
-Project Link: [https://github.com/lukiod/itr-assignment] 
+Project Link: [https://github.com/lukiod/iitr-assign] 
