@@ -110,9 +110,11 @@ This application performs Optical Character Recognition (OCR) on images containi
 - GOT approach: couldn't test it due to midsem evaluations i have done some basic test which are under `testgotocr`
 
 ## Previous Work
-- I have worked upon vsrious text to image and image to image model and my task was to redu;e tje  inference time and memmory usage used by the model 
+- I have worked upon vsrious text to image and image to image model and my task was to reduce the  inference time and memmory usage used by the model 
 - Here is the link for the report [https://github.com/lukiod/T2I-and-I2I-Report]
 
+## What i want to say
+- I did my best for the given time constraint with midsem over my head thanks. 
 ## Contact
 
 [Mohak Gupta] - [mohakgupta0981@gmail.com]
