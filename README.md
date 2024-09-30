@@ -41,10 +41,11 @@ This application performs Optical Character Recognition (OCR) on images containi
 - Docker
 
 ## Setup and Installation
+- Note the repo hasn't been made public because of copy right and might affect my chances into the internship
 
 1. Clone the repository:
    ```
-   git clone [Your Repository URL]
+   git clone https://github.com/lukiod/itr-assignment
    cd ITR-ASSIGNMENT
    ```
 
@@ -54,6 +55,16 @@ This application performs Optical Character Recognition (OCR) on images containi
      cd testqwen/dock2
      docker build -t ocr-search-app .
      docker run --gpus all -p 8000:8000 ocr-search-app
+     ```
+   - For Qwen2 (Only CPU Without Byaldi)
+     ```
+     cd testqwen/streamlit_qwen2_withbyaldi
+     streamlit run app.py 
+     ```
+   - For Qwen2 (Only CPU Without Byaldi)
+     ```
+     cd testqwen/streamlit_qwen
+     streamlit run app.py 
      ```
    - For both approaches (local setup):
      ```
@@ -66,15 +77,14 @@ This application performs Optical Character Recognition (OCR) on images containi
 ### Hugging Face Space
 - Visit the Hugging Face Space link:
 - Docker - https://huggingface.co/spaces/lukiod/dock2 
-- Streamlit - https://huggingface.co/spaces/lukiod/streamlit_qwen
+- Streamlittest1 - https://huggingface.co/spaces/lukiod/streamlit_qwen
+- Streamlit final - https://huggingface.co/spaces/lukiod/streamlit_qwen2_withbyaldi
 - Follow the interface instructions to upload images and perform OCR
 
-### Local Streamlit or Gradio Interface
+### Local Streamlit Interface
 - Run the appropriate script for Streamlit or Gradio interface:
   ```
   streamlit run streamlit_app.py
-  # or
-  python gradio_app.py
   ```
 - Access the web interface and follow on-screen instructions
 
@@ -90,20 +100,21 @@ This application performs Optical Character Recognition (OCR) on images containi
 ## Deployment Options
 
 - Hugging Face Spaces: Already deployed for Approach 1
-- GPU-Enabled Server (for Qwen2): e.g., AWS EC2 or Google Cloud with GPU or RTX 4090 or HX100 recommended in flash attention  
+- GPU-Enabled Server (for Qwen2): e.g., AWS EC2 or Google Cloud with GPU or RTX 4090 or HX100 recommended in flash attention 
 - Standard Server (for GOT): Any CPU-based cloud or VPS service
 - Local Deployment: Suitable GPU for Qwen2, standard CPU for GOT
 
 ## Development
 
 - `basic_qwen.ipynb`: For testing Qwen2 OCR (requires GPU)
-- GOT approach: Under development, will be CPU-compatible
+- GOT approach: couldn't test it due to midsem evaluations i have done some basic test which are under `testgotocr`
 
-
+## Previous Work
+- I have worked upon vsrious text to image and image to image model and my task was to redu;e tje  inference time and memmory usage used by the model 
+- Here is the link for the report [https://github.com/lukiod/T2I-and-I2I-Report]
 
 ## Contact
 
 [Mohak Gupta] - [mohakgupta0981@gmail.com]
 
-Project Link: [Your Repository URL]
-Hugging Face Space: [Your Hugging Face Space Link]
+Project Link: [https://github.com/lukiod/itr-assignment] 

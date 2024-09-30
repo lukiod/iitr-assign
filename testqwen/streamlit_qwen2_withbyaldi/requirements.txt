@@ -1,0 +1,11 @@
+streamlit
+torch
+torchvision
+torchaudio
+torchao
+git+https://github.com/huggingface/transformers.git
+diffusers
+Pillow
+qwen_vl_utils
+nltk
+byaldi
